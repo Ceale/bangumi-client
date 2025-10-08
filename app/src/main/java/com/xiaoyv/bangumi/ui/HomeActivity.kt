@@ -256,7 +256,7 @@ class HomeActivity : BaseViewModelActivity<ActivityHomeBinding, MainViewModel>()
                         .append("并保持其继续可用的版本。")
                         .appendLine()
                         .appendLine()
-                        .append("欢迎积极提出反馈或建议，或者加入交流群讨论，需求反馈等将第一时间得到回复。")
+                        .append("欢迎积极提出反馈或建议，或者加入交流群讨论。")
                         .appendLine()
                         .append("软件不收集任何隐私数据并且完全开源。")
                         .create(),
