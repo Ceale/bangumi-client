@@ -1,5 +1,5 @@
-# Bangumi for Android [![GitHub stars](https://img.shields.io/github/stars/xiaoyvyv/bangumi.svg)](https://github.com/xiaoyvyv/bangumi)
-Bangumi for Android - A full-featured unofficial android native application for the bangumi.tv
+# Bangumi for Android ESR [![GitHub stars](https://img.shields.io/github/stars/xiaoyvyv/bangumi.svg)](https://github.com/xiaoyvyv/bangumi)
+Bangumi for Android ESR - A fork of Bangumi for Android (xiaoyvyv/bangumi), maintained to be usable.
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Build Status](https://github.com/xiaoyvyv/bangumi/workflows/Android%20CI/badge.svg)](https://github.com/xiaoyvyv/bangumi/actions)
