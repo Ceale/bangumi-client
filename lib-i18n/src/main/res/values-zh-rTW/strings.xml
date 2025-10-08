@@ -2,7 +2,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
     <!-- 公共模組 -->
-    <string name="app_name">Bangumi for Android</string>
     <string name="common_tip">提示</string>
     <string name="common_cancel">取消</string>
     <string name="common_done">確定</string>
