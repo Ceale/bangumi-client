@@ -7,8 +7,6 @@ Bangumi for Android ESR - A fork of Bangumi for Android (xiaoyvyv/bangumi), main
 
 <img src="https://github.com/xiaoyvyv/bangumi/blob/main/app/src/main/ic_launcher-playstore.png?raw=true" height="200" width="200" style="display:block; border:1px solid #000;border-radius: 12px;">
 
-<a href="https://play.google.com/store/apps/details?id=com.xiaoyv.bangumi"><img alt="Get it on Google Play" height="80" src="/lib-doc/images/playstore_badge.png"></a>
-
 大家好，各位阿宅、二次元迷们，我是一位热爱动漫文化的安卓开发者，很高兴向大家宣布，我为 https://bgm.tv 这个网站打造了一款全新的 安卓原生客户端！
 
 这款APP不仅完美呈现了 BGM.TV 的所有功能，更为用户提供了更便捷、更流畅的使用体验。
