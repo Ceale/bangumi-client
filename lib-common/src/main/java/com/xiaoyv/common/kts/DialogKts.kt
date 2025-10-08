@@ -4,6 +4,7 @@ import android.R
 import android.content.Context
 import android.text.InputFilter.LengthFilter
 import android.view.Gravity
+import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
 import com.blankj.utilcode.util.KeyboardUtils
 import com.blankj.utilcode.util.ScreenUtils
@@ -32,6 +33,7 @@ inline fun Context.showConfirmDialog(
     crossinline onNeutralClick: (() -> Unit) = {},
     crossinline onCancelClick: (() -> Unit) = {},
     crossinline onConfirmClick: (() -> Unit) = {},
+    crossinline onShow: (AlertDialog) -> Unit = {}
 ) {
     MaterialAlertDialogBuilder(this)
         .setTitle(title)
@@ -67,7 +69,11 @@ inline fun Context.showConfirmDialog(
         .create()
         .apply {
             setCanceledOnTouchOutside(cancelable)
-        }.show()
+            setOnShowListener {
+                onShow(this)
+            }
+        }
+        .show()
 }
 
 inline fun Context.showOptionsDialog(

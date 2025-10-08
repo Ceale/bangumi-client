@@ -1,7 +1,10 @@
 package com.xiaoyv.bangumi.ui
 
+import android.content.Intent
 import android.graphics.Typeface
+import android.net.Uri
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.View
@@ -39,7 +42,9 @@ import com.xiaoyv.widget.kts.adjustScrollSensitivity
 import com.xiaoyv.widget.kts.dpi
 import com.xiaoyv.widget.kts.getAttrColor
 import kotlinx.coroutines.delay
-
+import android.text.style.ClickableSpan
+import android.widget.TextView
+import androidx.core.net.toUri
 
 /**
  * Class: [HomeActivity]
@@ -219,27 +224,52 @@ class HomeActivity : BaseViewModelActivity<ActivityHomeBinding, MainViewModel>()
             launchUI {
                 delay(2000)
                 showConfirmDialog(
-                    title = "App 声明",
+                    title = "提示",
                     message = SpanUtils.with(null)
-                        .append("此客户端为班固米用户：")
-                        .appendSpace(4.dpi)
-                        .append("小玉")
-                        .setTypeface(Typeface.DEFAULT_BOLD)
+                        .append("Bangumi for Android ESR")
                         .setForegroundColor(getAttrColor(GoogleAttr.colorPrimary))
+                        .setClickSpan(object: ClickableSpan() {
+                            override fun onClick(widget: View) {
+                                // 打开网页
+                                val uri = "https://github.com/ceale/bangumi-client".toUri()
+                                val intent = Intent(Intent.ACTION_VIEW, uri)
+                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                                startActivity(intent)
+                            }
+                        })
                         .appendSpace(4.dpi)
-                        .append("为爱发电，耗时半个多月打造的班固米全功能三方客户端。")
-                        .appendLine()
-                        .appendLine()
-                        .append("此 App 为原生安卓应用，并且有做大量优化如评论分页，缓存等，保证你在使用过程中响应极速不卡顿。")
+                        .append("是一个从")
+                        .appendSpace(4.dpi)
+                        .append("Bangumi for Android")
                         .setForegroundColor(getAttrColor(GoogleAttr.colorPrimary))
+                        .setClickSpan(object: ClickableSpan() {
+                            override fun onClick(widget: View) {
+                                // 打开网页
+                                val uri = "https://github.com/xiaoyvyv/bangumi".toUri()
+                                val intent = Intent(Intent.ACTION_VIEW, uri)
+                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                                startActivity(intent)
+                            }
+                        })
+                        .appendSpace(4.dpi)
+                        .append("分支的、")
+                        .append("并保持其继续可用的版本。")
                         .appendLine()
                         .appendLine()
-                        .append("欢迎大家积极提出反馈或建议，或者加入交流群讨论，需求反馈等将第一时间得到回复。\n\n此软件不收集任何隐私数据并且完全开源。")
+                        .append("欢迎积极提出反馈或建议，或者加入交流群讨论，需求反馈等将第一时间得到回复。")
+                        .appendLine()
+                        .append("软件不收集任何隐私数据并且完全开源。")
                         .create(),
                     neutralText = "不再提醒",
-                    confirmText = "我知道了",
+                    cancelText = null,
                     onNeutralClick = {
                         ConfigHelper.showVersionTip = false
+                    },
+                    onShow = { dialog ->
+                        // 找到 Dialog 中的消息 TextView
+                        val textView = dialog.findViewById<TextView>(android.R.id.message)
+                        // 设置点击支持
+                        textView?.movementMethod = LinkMovementMethod.getInstance()
                     }
                 )
             }
