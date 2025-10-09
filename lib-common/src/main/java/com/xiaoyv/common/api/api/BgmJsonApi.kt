@@ -78,10 +78,10 @@ interface BgmJsonApi {
         @Path("bgmUrl", encoded = true) bgmUrl: String = BgmApiManager.URL_BASE_WEB,
     ): Document
 
-    @GET("https://api.github.com/repos/xiaoyvyv/bangumi/releases/latest")
+    @GET("https://api.github.com/repos/ceale/bangumi-client/releases/latest")
     suspend fun queryGithubLatest(): GithubLatestEntity
 
-    @GET("https://api.github.com/repos/xiaoyvyv/bangumi/actions/artifacts")
+    @GET("https://api.github.com/repos/ceale/bangumi-client/actions/artifacts")
     suspend fun queryGithubAction(
         @Query("name") name: String,
         @Query("per_page") pageSize: Int
