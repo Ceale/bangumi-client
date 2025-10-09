@@ -22,7 +22,7 @@ val gson by lazy { Gson() }
 
 fun openInBrowser(url: String) {
     runCatching {
-        ActivityUtils.startActivity(Intent.parseUri(url, Intent.URI_ALLOW_UNSAFE))
+        ActivityUtils.startActivity(Intent.parseUri(url, Intent.URI_ALLOW_UNSAFE).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
     }
 }
 

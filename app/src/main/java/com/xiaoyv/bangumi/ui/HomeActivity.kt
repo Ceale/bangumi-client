@@ -45,6 +45,7 @@ import kotlinx.coroutines.delay
 import android.text.style.ClickableSpan
 import android.widget.TextView
 import androidx.core.net.toUri
+import com.xiaoyv.common.kts.openInBrowser
 
 /**
  * Class: [HomeActivity]
@@ -244,11 +245,7 @@ class HomeActivity : BaseViewModelActivity<ActivityHomeBinding, MainViewModel>()
                         .setForegroundColor(getAttrColor(GoogleAttr.colorPrimary))
                         .setClickSpan(object: ClickableSpan() {
                             override fun onClick(widget: View) {
-                                // 打开网页
-                                val uri = "https://github.com/xiaoyvyv/bangumi".toUri()
-                                val intent = Intent(Intent.ACTION_VIEW, uri)
-                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                                startActivity(intent)
+                                openInBrowser("https://github.com/xiaoyvyv/bangumi")
                             }
                         })
                         .appendSpace(4.dpi)
