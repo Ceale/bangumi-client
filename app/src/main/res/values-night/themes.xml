@@ -1,15 +1,15 @@
 <resources>
-<!--    <style name="Theme.App.Starting" parent="Theme.SplashScreen">-->
-<!--        &lt;!&ndash; Set the splash screen background, animated icon, and animation duration. &ndash;&gt;-->
-<!--        <item name="windowSplashScreenBackground">?android:colorBackground</item>-->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">?android:colorBackground</item>
 
-<!--        &lt;!&ndash; 用圆形白底的图标来保证在暗色背景上站是正常 &ndash;&gt;-->
-<!--        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_0</item>-->
-<!--        &lt;!&ndash; Required for animated icons &ndash;&gt;-->
-<!--        <item name="windowSplashScreenAnimationDuration">200</item>-->
+        <!-- 用圆形白底的图标来保证在暗色背景上站是正常 -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_starting</item>
+        <!-- Required for animated icons -->
+        <item name="windowSplashScreenAnimationDuration">200</item>
 
-<!--        &lt;!&ndash; Set the theme of the Activity that directly follows your splash screen. &ndash;&gt;-->
-<!--        &lt;!&ndash; Required &ndash;&gt;-->
-<!--        <item name="postSplashScreenTheme">@style/Theme.Bangumi</item>-->
-<!--    </style>-->
+        <!-- Set the theme of the Activity that directly follows your splash screen. -->
+        <!-- Required -->
+        <item name="postSplashScreenTheme">@style/Theme.Bangumi</item>
+    </style>
 </resources>
