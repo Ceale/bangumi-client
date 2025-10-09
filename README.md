@@ -58,11 +58,10 @@
 
 **部分页面截图预览**
 
-
-![poster-1](https://github.com/ceale/bangumi-client/blob/main/assets/poster-1.png?raw=true)
-![poster-2](https://github.com/ceale/bangumi-client/blob/main/assets/poster-2.png?raw=true)
-![poster-3](https://github.com/ceale/bangumi-client/blob/main/assets/poster-3.png?raw=true)
-![poster-4](https://github.com/ceale/bangumi-client/blob/main/assets/poster-4.png?raw=true)
+![poster-1](https://github.com/ceale/bangumi-client/blob/main/assets/poster-1.jpg?raw=true)
+![poster-2](https://github.com/ceale/bangumi-client/blob/main/assets/poster-2.jpg?raw=true)
+![poster-3](https://github.com/ceale/bangumi-client/blob/main/assets/poster-3.jpg?raw=true)
+![poster-4](https://github.com/ceale/bangumi-client/blob/main/assets/poster-4.jpg?raw=true)
 
 最后，感谢大家的支持和厚爱，希望我的安卓原生原生客户端能为大家带来更丰富、更愉悦的Bgm体验。
 
