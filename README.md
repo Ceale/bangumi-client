@@ -4,7 +4,7 @@
 一个从 Bangumi for Android fork 的、并保持其继续可用的版本。
 
  [![GitHub stars](https://img.shields.io/github/stars/ceale/bangumi-client?style=for-the-badge)](https://github.com/ceale/bangumi-client)
-[![License: GPL-3.0](https://img.shields.io/badge/License-GPL3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL3.0-blue?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/ceale/bangumi-client/android.yml?style=for-the-badge)](https://github.com/ceale/bangumi-client/actions)
 [![GitHub all releases](https://img.shields.io/github/downloads/ceale/bangumi-client/total?style=for-the-badge)](https://github.com/ceale/bangumi-client)
 
