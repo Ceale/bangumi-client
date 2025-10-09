@@ -1,7 +1,7 @@
 # Bangumi for Android ESR [![GitHub stars](https://img.shields.io/github/stars/xiaoyvyv/bangumi.svg)](https://github.com/xiaoyvyv/bangumi)
 一个从 Bangumi for Android fork 的、并保持其继续可用的版本。
 
-<img src="https://github.com/xiaoyvyv/bangumi/blob/main/app/src/main/ic_launcher-playstore.png?raw=true" height="200" width="200" style="display:block; border:1px solid #000;border-radius: 12px;">
+<img src="https://github.com/ceale/bangumi-client/blob/main/app/src/main/ic_launcher-playstore.png?raw=true" height="200" width="200" style="display:block; border:1px solid #000;border-radius: 12px;">
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Build Status](https://github.com/ceale/bangumi-client/workflows/Android%20CI/badge.svg)](https://github.com/ceale/bangumi-client/actions)
@@ -19,7 +19,7 @@
 
 ### 项目地址
 
-🚩Source Code: [https://github.com/xiaoyvyv/bangumi](https://github.com/xiaoyvyv/bangumi)
+🚩Source Code: [https://github.com/ceale/bangumi-client](https://github.com/ceale/bangumi-client)
 
 🚩Github Release: [Github-Release](https://github.com/xiaoyvyv/bangumi/releases)
 
@@ -57,10 +57,11 @@
 
 **部分页面截图预览**
 
-![https://img.xiaoyv.com.cn/image/bangumi/poster-1.jpg](https://img.xiaoyv.com.cn/image/bangumi/poster-1.jpg?_)
-![https://img.xiaoyv.com.cn/image/bangumi/poster-2.jpg](https://img.xiaoyv.com.cn/image/bangumi/poster-2.jpg?_)
-![https://img.xiaoyv.com.cn/image/bangumi/poster-3.jpg](https://img.xiaoyv.com.cn/image/bangumi/poster-3.jpg?_)
-![https://img.xiaoyv.com.cn/image/bangumi/poster-4.jpg](https://img.xiaoyv.com.cn/image/bangumi/poster-4.jpg?_)
+
+![poster-1](https://github.com/ceale/bangumi-client/blob/main/assets/poster-1.png?raw=true)
+![poster-2](https://github.com/ceale/bangumi-client/blob/main/assets/poster-2.png?raw=true)
+![poster-3](https://github.com/ceale/bangumi-client/blob/main/assets/poster-3.png?raw=true)
+![poster-4](https://github.com/ceale/bangumi-client/blob/main/assets/poster-4.png?raw=true)
 
 最后，感谢大家的支持和厚爱，希望我的安卓原生原生客户端能为大家带来更丰富、更愉悦的Bgm体验。
 
