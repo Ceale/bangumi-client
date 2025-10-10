@@ -1,7 +1,7 @@
 <img src="https://github.com/ceale/bangumi-client/blob/main/app/src/main/ic_launcher-playstore.png?raw=true" height="200" width="200" style="display:block; border:1px solid #000;border-radius: 12px;">
 
 # Bangumi for Android ESR
-一个修改自 Bangumi for Android 的、保持其继续可用的版本。
+一个 fork 自 Bangumi for Android 的、保持其继续可用的版本。
 
  [![GitHub stars](https://img.shields.io/github/stars/ceale/bangumi-client?style=for-the-badge)](https://github.com/ceale/bangumi-client)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL3.0-blue?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
